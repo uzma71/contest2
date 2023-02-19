@@ -1,0 +1,10 @@
+html{
+    background-color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 2px solid red;
+padding: 20px;
+
+}
