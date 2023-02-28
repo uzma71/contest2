@@ -1,10 +1,79 @@
 html{
-    background-color: black;
+    background-color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    padding: 20px;
+}
+nav{
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+nav>p{
+    color: white;
 }
 .container{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
     border: 2px solid red;
-padding: 20px;
+    margin-top: 30px;
+    gap:20px;
+}
+.card-container{
+    display: flex;
+    flex-flow: column wrap;
+    gap:20px;
+    width:25%;
 
+}
+.profile-image{
+    width:190px ;
+    border-radius:100000px ;
+}
+.card{
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.item{
+    border: 1px solid gray;
+    padding: 20px;
+    flex-grow: 1;
+}
+.profile{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.bottom-card>div{
+    display: flex;
+    flex-flow:row wrap ;
+    align-items: center;
+    gap:10px;
+    margin-top: 10px;
+}
+.bottom-card img{
+    width:30px;
+    height:30px;
+}
+table{
+    border:1px solid grey;
+    width: 100%;
+    margin-top: 20px;
+    flex-grow: 1;
+    border-radius: 10px;
+}
+thead{
+    border:1px solid grey;
+}
+td{
+    padding: 10px;
+}
+thead td{
+    border-bottom: 1px solid gray;
 }
